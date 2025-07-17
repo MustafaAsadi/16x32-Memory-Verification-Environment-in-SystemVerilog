@@ -1,8 +1,8 @@
 # Memory Verification Environment
 
-This project presents a fully self-contained active verification environment for a 16x32-bit synchronous memory module using SystemVerilog, built without UVM. The memory is modeled with synchronous write behavior and initialized with random values upon reset. The verification environment mimics UVM structure, including sequencer, driver, monitor, scoreboard, subscriber, and functional coverage.
+This project presents a fully self-contained active verification environment for a 16x32-bit synchronous memory module using SystemVerilog. The memory is modeled with synchronous write behavior and initialized with random values upon reset. The verification environment mimics UVM structure, including sequencer, driver, monitor, scoreboard, subscriber, and functional coverage.
 
-The entire testbench is structured using SystemVerilog OOP constructs and uses virtual interfaces, stimulus generation, coverage collection, and assertion-based checking — making it a complete environment suitable for functional verification learning or portfolio demonstration.
+The entire testbench is structured using SystemVerilog OOP constructs and uses virtual interfaces, stimulus generation, coverage collection, and assertion-based checking — making it a complete environment suitable for functional verification.
 
 ## Key Features
 16-location memory, each 32 bits wide
