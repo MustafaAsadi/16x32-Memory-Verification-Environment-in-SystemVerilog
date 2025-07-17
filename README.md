@@ -72,7 +72,7 @@ Print final coverage summary
 [INFO] Packet #45 has been initialized successfully
 [COVERAGE]: Total Coverege is 92/100
 
-##Result
+## Result
   Full functional correctness confirmed with assertions
 
   90%+ functional coverage achieved across randomized scenarios
