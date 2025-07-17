@@ -17,7 +17,7 @@ Randomized and constrained stimulus generation
 
 Functional coverage on both input and output signals
 
-Self-checking mechanism with assert() and scoreboard
+Self-checking mechanism with immediate assertions and scoreboard
 
 Interface-based communication using clocking block
 
