@@ -21,12 +21,13 @@ Self-checking mechanism with assert() and scoreboard
 
 Interface-based communication using clocking block
 
-Compatible with ModelSim, VCS, or any SystemVerilog simulator
 
 ## Verification Environment Components
 interface.sv – Defines signal access via virtual interface and clocking block
 
 transaction.sv – Represents input stimulus and includes input coverage
+
+out_transaction.sv - Presents output generated from the RTL
 
 sequencer.sv – Generates randomized transactions
 
@@ -40,7 +41,7 @@ subscriber.sv – Collects output coverage
 
 env.sv – Connects and runs the environment
 
-test_top.sv – Top-level module with DUT instantiation and environment setup
+testbench.sv – Top-level module with DUT instantiation and environment setup
 
 ## Functional Coverage
   Input Enable, Address, and Data_in conditions
@@ -75,7 +76,6 @@ Print final coverage summary
 ## Result
   Full functional correctness confirmed with assertions
 
-  90%+ functional coverage achieved across randomized scenarios
+  79% functional coverage for only 1200 sequence achieved across randomized scenarios
 
-  Modular testbench suitable for extension or reuse in other projects
 
