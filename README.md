@@ -66,11 +66,11 @@ Print final coverage summary
 
 ## Example Output Snippet
 
-[SEQUENCE] EN = 1 | address = 0A | Data_in = A55A_FF01
-[MONITOR] Data_out = A55A_FF01 | Valid_out = 1
-[SCOREBOARD]: Data_in = A55A_FF01 | Data_out = A55A_FF01 | Valid_out = 1
-[INFO] Packet #45 has been initialized successfully
-[COVERAGE]: Total Coverege is 92/100
+- [SEQUENCE] EN = 1 | address = 0A | Data_in = A55A_FF01
+- [MONITOR] Data_out = A55A_FF01 | Valid_out = 1
+- [SCOREBOARD]: Data_in = A55A_FF01 | Data_out = A55A_FF01 | Valid_out = 1
+- [INFO] Packet #45 has been initialized successfully
+- [COVERAGE]: Total Coverege is 92/100
 
 ## Result
   Full functional correctness confirmed with assertions
