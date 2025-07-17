@@ -7,7 +7,7 @@ This project presents a fully self-contained active verification environment for
 
 The entire testbench is structured using SystemVerilog OOP constructs and uses virtual interfaces, stimulus generation, coverage collection, and assertion-based checking — making it a complete environment suitable for functional verification learning or portfolio demonstration.
 
-Key Features
+## Key Features
 16-location memory, each 32 bits wide
 
 Synchronous write with data echo on write
@@ -26,7 +26,7 @@ Interface-based communication using clocking block
 
 Compatible with ModelSim, VCS, or any SystemVerilog simulator
 
-Verification Environment Components
+## Verification Environment Components
 interface.sv – Defines signal access via virtual interface and clocking block
 
 transaction.sv – Represents input stimulus and includes input coverage
@@ -45,14 +45,14 @@ env.sv – Connects and runs the environment
 
 test_top.sv – Top-level module with DUT instantiation and environment setup
 
-Functional Coverage
+## Functional Coverage
   Input Enable, Address, and Data_in conditions
 
   Output Valid and Data_out value range bins
 
   Randomization-based sampling for robust coverage measurement
 
-Testbench Flow
+## Testbench Flow
 Reset the DUT and initialize signals
 
 Randomized generation of transactions
@@ -67,7 +67,7 @@ Sample outputs for coverage using subscriber
 
 Print final coverage summary
 
-Example Output Snippet
+## Example Output Snippet
 
 [SEQUENCE] EN = 1 | address = 0A | Data_in = A55A_FF01
 [MONITOR] Data_out = A55A_FF01 | Valid_out = 1
@@ -75,10 +75,10 @@ Example Output Snippet
 [INFO] Packet #45 has been initialized successfully
 [COVERAGE]: Total Coverege is 92/100
 
-Result
-✅ Full functional correctness confirmed with assertions
+##Result
+  Full functional correctness confirmed with assertions
 
-✅ 90%+ functional coverage achieved across randomized scenarios
+  90%+ functional coverage achieved across randomized scenarios
 
-✅ Modular testbench suitable for extension or reuse in other projects
+  Modular testbench suitable for extension or reuse in other projects
 
