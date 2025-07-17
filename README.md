@@ -76,6 +76,6 @@ Print final coverage summary
 ## Result
   Full functional correctness confirmed with assertions
 
-  79% functional coverage for only 1200 sequence achieved across randomized scenarios
+  79% functional coverage for only 1200 sequences achieved across randomized scenarios
 
 
