@@ -1,4 +1,4 @@
-# Memory-Verification-Environment-in-SystemVerilog
+# Memory Verification Environment
 
 This project presents a fully self-contained active verification environment for a 16x32-bit synchronous memory module using SystemVerilog, built without UVM. The memory is modeled with synchronous write behavior and initialized with random values upon reset. The verification environment mimics UVM structure, including sequencer, driver, monitor, scoreboard, subscriber, and functional coverage.
 
